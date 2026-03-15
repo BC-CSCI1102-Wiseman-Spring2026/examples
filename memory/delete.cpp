@@ -27,7 +27,7 @@ int main() {
 
     print_array(x, size);
 
-    delete x;
+    delete[] x;
     return 0;
 }
 
