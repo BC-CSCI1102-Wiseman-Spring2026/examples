@@ -12,7 +12,7 @@ int *get_data(int size) {
 
 // original: void print_array(int a[], int length) {
 // the original version is generally better
-void print_array(int *a, int length) {
+void print_array(int a[], int length) {
     for (int i = 0; i < length; i++) {
         cout << a[i];
         if (i != length-1) {
@@ -29,7 +29,7 @@ int main() {
 
     print_array(x, size);
 
-    delete x;
+    delete[] x;
     return 0;
 }
 
