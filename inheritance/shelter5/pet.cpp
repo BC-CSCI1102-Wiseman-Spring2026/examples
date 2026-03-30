@@ -26,10 +26,6 @@ void pet::eat() {
     hunger_level = 0;
 }
 
-void pet::speak() {
-    cout << name << " makes noise." << endl;
-}
-
 ostream& operator<<(ostream& out, pet& p) {
     out << p.get_name() << "," << p.get_id();
     return out;

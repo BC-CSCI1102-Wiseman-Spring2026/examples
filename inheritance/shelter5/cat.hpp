@@ -6,5 +6,5 @@ protected:
 
 public:
     cat(string n, unsigned int i, bool h);
-    void speak();
+    void speak() override;
 };

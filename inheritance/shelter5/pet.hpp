@@ -14,7 +14,7 @@ public:
 
     void play();
     void eat();
-    void speak();
+    virtual void speak() = 0;
 };
 
 ostream& operator<<(ostream& out, pet& p);

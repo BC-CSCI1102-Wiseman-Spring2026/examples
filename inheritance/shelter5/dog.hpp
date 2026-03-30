@@ -7,5 +7,5 @@ protected:
 public:
     dog(string n, unsigned int i, unsigned int d);
 
-    void speak();
+    void speak() override;
 };
